@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #6a5acd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 20rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box .month {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 4rem;
+    background-color: #ff4500;
+    padding-top: 14px;
+}
+
+.box .month h2 {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.box .day {
+    color: gray;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.box .date {
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 38px;
+    font-weight: bold;
+}
+
+.box .year {
+    color: gray;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 26px;
+}
